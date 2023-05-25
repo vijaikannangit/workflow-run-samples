@@ -4,6 +4,8 @@ on:
 jobs:
   Vijais-job-workflowrun:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write  # IMPORTANT: this permission is mandatory for trusted publishing
     steps:
       - name: Vijais-first-workflow_run1
         run: echo "Hello.... This is Vijai Kannan's first Action Workflow RUN!"
