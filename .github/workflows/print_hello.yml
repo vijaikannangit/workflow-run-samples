@@ -1,6 +1,7 @@
 name: Vij-workflow-run1
 on:
-  workflow_dispatch
+  repository_dispatch
+  #workflow_dispatch
 jobs:
   Vijais-job-workflowrun:
     runs-on: ubuntu-latest
